@@ -1,10 +1,11 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
-import UserList from './components/UserList.jsx';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import './index.scss';
 
 ReactDOM.render(
-    <div>
-        <UserList />
-    </div>,
-    document.querySelector("#root")
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
