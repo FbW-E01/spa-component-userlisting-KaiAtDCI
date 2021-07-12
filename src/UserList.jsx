@@ -10,7 +10,6 @@ export default class UserList extends React.Component {
         event.target.classList.remove('active');
     }
 
-
     render() {
         return <>
             <ul className='list-group'>

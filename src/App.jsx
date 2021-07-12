@@ -25,7 +25,7 @@ export default class App extends React.Component {
             <>
                 <div className="App">
                     <h1>User Listing</h1>
-                    <input type='button' className='my-2' value='Get user list' onClick={this.fetchUserList}/>
+                    <input type='button' className='btn btn-primary my-2' value='Get user list' onClick={this.fetchUserList}/>
                     {
                         this.state.userList
                             ? <UserList userList={this.state.userList}/>
